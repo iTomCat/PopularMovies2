@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space_vertical">4dp</dimen>
+    <dimen name="divide">2dp</dimen>
+    <dimen name="marigin_width">60dp</dimen>
+    <dimen name="marigin_height">100dp</dimen>
+</resources>

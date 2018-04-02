@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:baselineAligned="false"
+              android:id="@+id/tabs_background"
+              android:background="@color/mid_gray"
+              tools:ignore="ExtraText">
+
+    <!-- Button POPULAR -->>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_popular"
+        android:clickable="true"
+        android:background="@drawable/tabs_click"
+        android:baselineAligned="true"
+        android:layout_weight="1"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/indic_popular"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:contentDescription="@+id/image_descript"/>
+
+        <TextView
+            android:id="@+id/txt_popular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="false"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:minLines="0"
+            android:text="@string/popular"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <!-- Button TOP RATED -->>
+    <ImageView
+        android:layout_width="@dimen/space_vertical"
+        android:layout_height="match_parent"
+        android:contentDescription="@+id/image_descript"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_top_rated"
+        android:clickable="true"
+        android:background="@drawable/tabs_click"
+        android:baselineAligned="true"
+        android:layout_weight="1"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/indic_top_rated"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:contentDescription="@+id/image_descript"/>
+
+        <TextView
+            android:id="@+id/txt_top_rated"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/top_rated"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <!-- Button FAVORITES -->>
+    <ImageView
+        android:layout_width="@dimen/space_vertical"
+        android:layout_height="match_parent"
+        android:contentDescription="@+id/image_descript"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_favorites"
+        android:clickable="true"
+        android:background="@drawable/tabs_click"
+        android:baselineAligned="true"
+        android:layout_weight="1"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/indic_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:contentDescription="@+id/image_descript"/>
+
+        <TextView
+            android:id="@+id/txt_favorites"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/favorites"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

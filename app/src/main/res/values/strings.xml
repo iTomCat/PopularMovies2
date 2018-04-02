@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="error_message">no internet connection</string>
+    <string name="poster_cover">poster cover</string>
+    <string name="line">line</string>
+
+    <!-- Error messages -->
+    <string name="detail_error_message">Movie data not available</string>
+
+    <!-- Menu -->
+    <string name="popular">POPULAR</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="top_rated">TOP RATED</string>
+
+    <!-- Movies Detail -->
+    <string name="no_data">No Data</string>
+    <string name="vote_desc">Vote Average</string>
+    <string name="release_desc">Release date</string>
+    <string name="reviews">Reviews</string>
+    <string name="author">Author:</string>
+    <string name="trailers">Trailers</string>
+    <string name="fav_checked">The movie has been added to favorites</string>
+    <string name="fav_unchecked">The movie has been removed from favorites</string>
+
+    <!-- Review Detail -->
+    <string name="review_by">Reviewed by</string>
+
+    <!-- Preferences -->
+    <string name="selected_tab" translatable="false">selected_tab</string>
+
+    <!-- Share Trailer -->
+    <string name="share">Share</string>
+    <string name="trailer">Hi! See the trailer of my favorite movie</string>
+    <string name="trailer_title">Send your favorite movie trailer</string>
+
+</resources>
